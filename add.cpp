@@ -3,11 +3,12 @@
 int main(int argc, char const *argv[])
 {
     std::cout<<"Enter a number : " ;
-    int a {} ;
+    double a {} ;
     std::cin>> a  ;
     std::cout<<"Enter another number : " ;
-    int b {} ;
+    double b {} ;
     std::cin>> b  ;
-    std::cout<<"The sum of "<<a <<" and " <<b <<" is: "<< a + b  ;
+    double  sum = a+ b ;
+    std::cout<<"The sum of "<<a <<" and " <<b <<" is: "<<sum   ;
     return 0;
 }
